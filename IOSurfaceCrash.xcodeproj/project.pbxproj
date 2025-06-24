@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		51440C262E0B6BD600D88527 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 51440C252E0B6BD600D88527 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		51440C142E0B6B7F00D88527 /* IOSurfaceCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSurfaceCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51440C252E0B6BD600D88527 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		51440C0B2E0B6B7F00D88527 = {
 			isa = PBXGroup;
 			children = (
+				51440C252E0B6BD600D88527 /* README.md */,
 				51440C162E0B6B7F00D88527 /* IOSurfaceCrash */,
 				51440C152E0B6B7F00D88527 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51440C262E0B6BD600D88527 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
